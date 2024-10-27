@@ -1,0 +1,13 @@
+Employee information obtained by get functions: 
+
+First name is Sue
+Last name is Jones
+Social security number is 222-22-2222
+Gross sales is 10000.00
+Commission rate is 0.06
+
+Updated employee information output by print function: 
+
+
+
+Employee's earnings: $800.00
