@@ -10,8 +10,6 @@ Sorting is the process of arranging the elements of a list or an array in a part
 2. **Organization**: Helps in organizing data, making it easier to read and analyze.
 3. **Data Processing**: Many algorithms require sorted data as input to function correctly.
 
-   ![Sorting Importance](https://www.educative.io/v2api/editorpage/5664876912307200/image/6770784848146432) <!-- Placeholder for an illustration related to sorting importance -->
-
 ## Example of Sorting
 
 Consider an array of integers:
@@ -25,8 +23,6 @@ After applying a sorting algorithm, the sorted array in ascending order would be
 ```cpp
 [1, 2, 5, 5, 6, 9]
 ```
-
-![Sorting Example](https://www.tutorialspoint.com/data_structures_algorithms/images/selection_sort_example.jpg) <!-- Placeholder for an illustration showing before and after sorting -->
 
 ## Common Sorting Algorithms
 
@@ -53,8 +49,6 @@ void bubbleSort(int arr[], int n) {
   - Best Case: O(n) (when the array is already sorted)
 - **Space Complexity**: O(1)
 
-![Bubble Sort](https://media.geeksforgeeks.org/wp-content/uploads/20240925153536/bubble-sort-2.webp) <!-- Visual representation of the Bubble Sort algorithm -->
-
 ### 2. 📏 Selection Sort
 
 **Basic Idea**: Divide the array into a sorted and an unsorted region. Repeatedly select the smallest (or largest) element from the unsorted region and move it to the end of the sorted region.
@@ -77,8 +71,6 @@ void selectionSort(int arr[], int n) {
 
 - **Time Complexity**: O(n²) for all cases
 - **Space Complexity**: O(1)
-
-  ![Selection Sort](https://www.geeksforgeeks.org/wp-content/uploads/Selection-Sort.png) <!-- Placeholder for Selection Sort illustration -->
 
 ### 3. 🔄 Insertion Sort
 
@@ -104,8 +96,6 @@ void insertionSort(int arr[], int n) {
   - Worst Case: O(n²)
   - Best Case: O(n) (when the array is already sorted)
 - **Space Complexity**: O(1)
-
-![Insertion Sort](https://www.geeksforgeeks.org/wp-content/uploads/Insertion-Sort.png) <!-- Placeholder for Insertion Sort illustration -->
 
 ### 4. 🔀 Merge Sort
 
@@ -151,8 +141,6 @@ void mergeSort(int arr[], int left, int right) {
 - **Time Complexity**: O(n log n) for all cases
 - **Space Complexity**: O(n) (due to temporary arrays)
 
-![Merge Sort](https://www.geeksforgeeks.org/wp-content/uploads/Merge-Sort-1.png) <!-- Placeholder for Merge Sort illustration -->
-
 ### 5. ⚡ Quick Sort
 
 **Basic Idea**: Another divide-and-conquer algorithm that selects a 'pivot' element and partitions the array into elements less than and greater than the pivot. The sub-arrays are then sorted recursively.
@@ -186,8 +174,6 @@ void quickSort(int arr[], int low, int high) {
   - Worst Case: O(n²) (when the smallest or largest element is always chosen as the pivot)
   - Best and Average Case: O(n log n)
 - **Space Complexity**: O(log n) (due to recursion stack)
-
-  ![Quick Sort](https://www.geeksforgeeks.org/wp-content/uploads/Quick-Sort.png) <!-- Placeholder for Quick Sort illustration -->
 
 ### 6. 📐 Heap Sort
 
@@ -227,8 +213,7 @@ void heapSort(int arr[], int n) {
 - **Time Complexity**: O(n log n) for all cases
 - **Space Complexity**: O(1)
 
-  ![Heap Sort](https://www.geeksforgeeks.org/wp-content/uploads/Heap-Sort.png) <!-- Placeholder for Heap Sort illustration -->
-
 ## Conclusion
 
 Sorting is a crucial aspect of computer science, with various algorithms available to accomplish it, each with its own advantages and trade-offs. Understanding these sorting algorithms will enhance your programming skills and enable you to write more efficient code.
+```
