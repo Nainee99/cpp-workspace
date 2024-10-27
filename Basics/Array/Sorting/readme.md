@@ -1,7 +1,3 @@
-Here’s the revised `README.md` draft with C++ code examples for the sorting algorithms:
-
----
-
 # 📊 Sorting Algorithms
 
 ## What is Sorting?
@@ -57,7 +53,7 @@ void bubbleSort(int arr[], int n) {
   - Best Case: O(n) (when the array is already sorted)
 - **Space Complexity**: O(1)
 
-![Bubble Sort](https://www.geeksforgeeks.org/wp-content/uploads/Bubble-Sort-1.png) <!-- Visual representation of the Bubble Sort algorithm -->
+![Bubble Sort](https://media.geeksforgeeks.org/wp-content/uploads/20240925153536/bubble-sort-2.webp) <!-- Visual representation of the Bubble Sort algorithm -->
 
 ### 2. 📏 Selection Sort
 
